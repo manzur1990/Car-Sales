@@ -22,8 +22,9 @@ const App = () => {
       { id: 4, name: 'Rear spoiler', price: 250 }
     ]
   };
-
+  
   return (
+    
     <div className="boxes">
       <div className="box">
         <Header car={state.car} />
